@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diep.io</title>
+</head>
+<link href="Diep.io.css" rel="stylesheet" type="text/css">
+
+<body>
+    <a name="TOP"></a>
+    <a class="my-wordHome" href="/Users/taninaoki/Desktop/WEB/GameCollect/GameCollect.html">
+        <h2>戻る</h2>
+    </a>
+    <hr size="10" color="#000000">
+    <a href="http://diep.io/">こちらから遊べます</a><br>
+    <b>【 開始方法 】</b><br>
+    ロード終了後、プレイヤー名を入力してEnterキーで開始<br>
+    <br>
+    <b>【LvUP】</b><br>
+    Health Regen ： HP回復速度<br>
+    Max Health ： 最大HP増加<br>
+    Body Damage ： 体当たりダメージUP<br>
+    Bullet Speed ： 弾丸スピードUP<br>
+    Bullet Penetration ： 弾丸貫通力UP<br>
+    Bullet Damage ： 弾丸ダメージUP<br>
+    Reload ： 連射速度UP<br>
+    Movement Speed ： 移動速度UP<br>
+    <br>
+    <b>【Upgrade】</b>
+    <b>Twin</b>　砲身2 前方集中<br>
+    　├Triple Shot　砲身3 前方拡散型<br>
+    　│　├Triplet　砲身3 前方集中<br>
+    　│　├Spread Shot　砲身11(小10中1) 前方拡散型 低反動<br>
+    　│　└Penta Shot　砲身5 前方拡散型<br>
+    　│<br>
+    　├Quad Tank 　砲身4 全体4方向<br>
+    　│　├Octo Tank　砲身8 全体拡散型<br>
+    　│　└Auto 5　回頭ｵｰﾄ砲台5（自己操作2）小玉射出<br>
+    　│<br>
+    　└Twin Flank　前後に砲身2 ＝○＝ 実質反動無<br>
+    　　　├Triple Twin　砲身2×3 120°ずつ3方向<br>
+    　　　└Battleship<br>
+    <br>
+    <b>Sniper</b>　砲身1 視界拡大 弾速増 ﾘﾛ減(小)<br>
+    　├Assassin　砲身1 視界超拡大 弾速増 ﾘﾛ減(中)<br>
+    　│　├Ranger　砲1 視界極大 弾速増 ﾘﾛ減(中)<br>
+    　│　└Stalker　砲1 視界超拡大 弾速増 ﾘﾛ減(中)停止時透明<br>
+    　│<br>
+    　├Overseer　視界拡大 子機操作 最大数8 最大射出数2<br>
+    　│　├Overlord　基本性能同上 最大射出数4<br>
+    　│　├Manager　基本性能同上 最大射出数1 停止時透明<br>
+    　│　├Necromancer　ﾏｯﾌﾟの■を操作 20+2*ﾘﾛ個 自己生成不可<br>
+    　│　├Overtrapper　前方撒菱射出1 ｵｰﾄﾌｧﾝﾈﾙ2<br>
+    　│　├Battleship<br>
+    　│　└Factory<br>
+    　│<br>
+    　├Hunter　砲1 視界拡大 弾速増 ﾘﾛ減(中)前方小中2連砲<br>
+    　│　├Predator　基本性能同上 前方小中大3連砲 右C視界延長<br>
+    　│　└Streamliner　砲身1 前方中玉射出 リロ極大<br>
+    　│<br>
+    　└Trapper　前方撒菱射出1<br>
+    　　　├Tri-Trapper　撒菱射出3 120°ずつ3方向 持続時間減<br>
+    　　　├Gunner Trapper　前方小玉射出×2 後方撒菱射出1<br>
+    　　　├Overtrapper　前方撒菱射出1 ｵｰﾄﾌｧﾝﾈﾙ2<br>
+    　　　├Mega Trapper　前方巨大撒菱射出1 ﾘﾛ減(大)<br>
+    　　　└Auto Trapper<br>
+    <br>
+    <b>Machine Gun</b>　砲身1 前方拡散射出 ﾘﾛ増 反動大<br>
+    　├Destroyer　砲身1 前方大玉射出 ﾘﾛ減(大) 反動極大<br>
+    　│　├Hybrid　基本性能同上 ｵｰﾄﾌｧﾝﾈﾙ2<br>
+    　│　└Annihilator<br>
+    　│<br>
+    　├Gunner　砲身4 前方小玉射出<br>
+    　│　├Auto Gunner　基本性能同上 回頭ｵｰﾄ砲台1<br>
+    　│　├Gunner Trapper　前方小玉射出×2 後方撒菱射出1<br>
+    　│　└Streamliner　砲身1 前方中玉射出 リロ極大<br>
+    　│<br>
+    　└──Sprayer（Lv45）　砲身1 前方小中拡散射出 ﾘﾛ増 反動中<br>
+    　<br>
+    <b>Flank Guard</b> 　前後に砲身1 -○-<br>
+    　├Tri-Angle　砲身3(前1後2) 反動で最速移動<br>
+    　│　├Booster　砲身5（前1後2×2）　同上<br>
+    　│　└Fighter　砲身5(前1横2後2）　同上<br>
+    　│<br>
+    　├Twin Flank　前後に砲身2 ＝○＝ 実質反動無<br>
+    　│　├Triple Twin　砲身2×3 120°ずつ3方向<br>
+    　│　└Battleship<br>
+    　│<br>
+    　├Quad Tank 　砲身4 全体4方向<br>
+    　│　├Octo Tank　砲身8 全体拡散型<br>
+    　│　└Auto 5　回頭ｵｰﾄ砲台5（自己操作2）小玉射出<br>
+    　│<br>
+    　└Auto 3　回頭ｵｰﾄ砲台3（自己操作1）小玉射出<br>
+    　　　├Auto 5　回頭ｵｰﾄ砲台5（自己操作2）小玉射出<br>
+    　　　└Auto Gunner　砲身4 回頭ｵｰﾄ砲台1<br>
+    <br>
+    <b>Tank</b><br>
+    　└Smasher(Lv30)　砲無　ｽﾃｰﾀｽ最大値10 <br>
+    　　　├Landmine　基本性能同上 停止時透明<br>
+    　　　├Auto Smasher<br>
+    　　　└Spike<br>
+    　　　<br>
+    <br>
+    <b>【ゲームモード】</b> （Tabキーで切り替え）<br>
+    FFA ： 個人自由戦<br>
+    Survival ： サバイバル<br>
+    2Teams ： 2チームデスマッチ<br>
+    4Teams ： 4チームデスマッチ<br>
+    Domination ： 砲台制圧戦（チーム）<br>
+    Tag ： 倒した敵が味方になる（チーム）<br>
+    Maze ： マップ内にランダムで壁が発生<br>
+    Sandbox ： サンドボックス<br>
+    　（K：LvUP、O：自爆、￥：クラスチェンジ、：：ゴッドモードON/OFF）<br>
+    <br>
+    <b>【 操作 】</b><br>
+    マウス ： 方向合わせ<br>
+    左クリック or [ Space ] ： メイン攻撃<br>
+    右クリック or [ Shift ] ： セカンダリ攻撃<br>
+    [ W ][ A ][ S ][ D ] or 方向キー ： 移動<br>
+    [ E ] ： オートショットON/OFF<br>
+    [ C ] ： オートスピンON/OFF<br>
+    [ H ] ： 砲台を操作する（もう1度押すと終了）<br>
+    [ Enter ] ： スタート<br>
+    [ 1 ]～[ 8 ] ： ステータスアップ<br>
+    [ U ]＋数字キー ： ステータスアップ予約（Uで初期化）<br>
+    [ M ]＋数字キー ： ステータスアップ最大値まで予約（Uで初期化）<br>
+    [ Tab ] ： ゲームモード切り替え<br>
+    [ Y ]（長押し） ： クラスツリー表示<br>
+    <br>
+    ※サンドボックスモード中のみ<br>
+    [ K ] ： レベルアップ<br>
+    [ O ] ： 自爆<br>
+    ￥ ： クラスチェンジ<br>
+    ： ： ゴッドモードON/OFF<br>
+
+
+
+
+    <a href="#TOP">トップへ戻る</a>
+</body>
+
+</html>
